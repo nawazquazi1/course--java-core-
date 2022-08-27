@@ -24,7 +24,7 @@ import java.util.Scanner;
     boolean iscorrctnumber(){
         noofguesses++;
         if (inputnumber==number){
-            System.out.printf("Yes you guessed it right, it was %d \n You guessed it in %d attempts, number, noOfGuesses");
+            System.out.printf("Yes you guessed it right, it was %d \n You guessed it in %d attempts", number, noofguesses);
             return true;
         }else if (inputnumber<number){
             System.out.println("Too lpw..");
@@ -36,10 +36,12 @@ import java.util.Scanner;
 
      public static void main(String[] args) {
          game g=new game();
-         boolean b = false;
-         while (!b){
+         //         boolean b = false;
+         int b=1;
+         while (b<=5){
              g.takeuserinput();
              g.iscorrctnumber();
+             b++;
          }
      }
          }
