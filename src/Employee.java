@@ -58,28 +58,28 @@ class circle{
 
         public static void main(String[] args) {
 
-//            circle ci = new circle();
-//            System.out.println(ci.area(34));
+            circle ci = new circle();
+            System.out.println(ci.area(34));
 
-//            Tommy player1 = new Tommy();
-//            player1.fire();
-//            player1.run();
-//            player1.hit();
+            Tommy player1 = new Tommy();
+            player1.fire();
+            player1.run();
+            player1.hit();
 
-//            Square sq = new Square();
-//            System.out.println(sq.side(6));
-//            System.out.println(sq.perimeter(6));
+            Square sq = new Square();
+            System.out.println(sq.side(6));
+            System.out.println(sq.perimeter(6));
 
-//            cellphone c = new cellphone();
-//            c.ring();
-//            c.vibrat();
-//            c.call();
+            cellphone c = new cellphone();
+            c.ring();
+            c.vibrat();
+            c.call();
 
-//        Employee em = new Employee();
-//        em.setName("nawaz");
-//        System.out.println(em.getName());
-//        em.setSalary(1234);
-//        System.out.println(em.getSalary());
+        Employee em = new Employee();
+        em.setName("nawaz");
+        System.out.println(em.getName());
+        em.setSalary(1234);
+        System.out.println(em.getSalary());
         }
 
     }
